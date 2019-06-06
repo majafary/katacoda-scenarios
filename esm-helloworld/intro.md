@@ -1,0 +1,1 @@
+This tutorial will setup Istio on the Open Shift environment and demonstrate how to create a service mesh by attaching sidecars to hello world service API containers

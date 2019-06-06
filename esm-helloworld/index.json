@@ -1,0 +1,21 @@
+{
+  "title": "Hello World With Istio Service Mesh",
+  "description": "Hello World with Openshift and Istio Service Mesh in mimutes!",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Let's Deploy Your First Application on Istio Service Mesh",
+        "text": "step1.md"
+      }
+    ]
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "openshift-3-11", "port": 8443
+  }
+}
