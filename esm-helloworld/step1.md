@@ -28,7 +28,6 @@ Execute: `oc new-project myproject`{{execute T1}}
 `oc get pods`{{execute T1}}
 
 10. Now, add privileged access to the pods
-
 `oc adm policy add-scc-to-user privileged -z default -n myproject`{{execute T1}}
 `oc adm policy add-scc-to-user privileged -z world -n myproject`{{execute T1}}
 `oc adm policy add-scc-to-user privileged -z hello -n myproject`{{execute T1}}
