@@ -7,6 +7,13 @@ Install istio
 
 `cd istio-1.1.7/install/kubernetes/`{{execute T1}}
 
+
+Set PATH for Istio
+
+`export ISTIO_HOME="/root/istio-1.1.7"`{{execute T1}}
+
+`export PATH=$PATH:$ISTIO_HOME/bin`{{execute T1}}
+
 Deploy the Istio Control Plane Components
 
 `oc apply -f istio-demo.yaml`{{execute T1}}
@@ -31,11 +38,11 @@ Deploy services - We Need This to Set privileged access to the Services
 
 `oc apply -f helloworld-minishift.yaml`{{execute T1}}
 
-Wait for pods to be created. You can execute this command again to verify. Alternatively use -w
-
 `oc get pods`{{execute T1}}
 
-Add privileged access to the pods
+Wait for pods to be created. You can execute this command again to verify. Alternatively manually type the command and use -w to continue watching. Once all pods are created, exit using CTRL+C
+
+Now, add privileged access to the pods
 
 `oc adm policy add-scc-to-user privileged -z default -n myproject`{{execute T1}}
 
@@ -43,15 +50,9 @@ Add privileged access to the pods
 
 `oc adm policy add-scc-to-user privileged -z hello -n myproject`{{execute T1}}
 
-Let's delete the pods we just created.
+OK, Let's delete the pods we just created. You will see why we did this soon
 
 `oc delete -f helloworld-minishift.yaml`{{execute T1}}
-  
-Set PATH for Istio
-
-`export ISTIO_HOME="/root/istio-1.1.7"`{{execute T1}}
-
-`export PATH=$PATH:$ISTIO_HOME/bin`{{execute T1}}
 
 Create the pods again - This time with sidecars
 
