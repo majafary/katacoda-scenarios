@@ -5,14 +5,14 @@ Execute: `oc new-project myproject`{{execute T1}}
 `curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.1.7 sh -`{{execute T1}}
 `cd istio-1.1.7/install/kubernetes/`{{execute T1}}
 
-3. Set ISTIO_HOME to the folder where Istio was installed
+3. Deploy the Istio Control Plane Components
+`oc apply -f istio-demo.yaml`{{execute T1}}
+
+4. Set ISTIO_HOME to the folder where Istio was installed
 `export ISTIO_HOME="/root/istio-1.1.7"`{{execute T1}}
 
-4. Now add the bin folder to the PATH
+5. Now add the bin folder to the PATH
 `export PATH=$PATH:$ISTIO_HOME/bin`{{execute T1}}
-
-5. Deploy the Istio Control Plane Components
-`oc apply -f istio-demo.yaml`{{execute T1}}
 
 6. List Istio Control Plane Services
 `oc get svc -n istio-system`{{execute T1}}
