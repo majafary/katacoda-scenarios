@@ -1,6 +1,8 @@
 {
   "title": "Hello World With Istio Service Mesh",
   "description": "Hello World with Openshift and Istio Service Mesh in mimutes!",
+  "difficulty":	"Beginner",
+  "time":	"20 minutes",
   "details": {
     "intro": {
       "courseData":"run-init.sh",
