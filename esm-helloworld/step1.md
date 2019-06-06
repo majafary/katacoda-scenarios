@@ -23,7 +23,7 @@ Execute: `oc new-project myproject`{{execute T1}}
 8. Get the helloworld-minishift.yaml file
 `curl -O https://raw.githubusercontent.com/majafary/archcon/master/helloworld-minishift.yaml`{{execute T1}}
  
-9. Deploy services - We Need This to Set privileged access to the Services.
+9. Deploy services - We Need This to Set privileged access to the Services. Wait for all pods to start.
 `oc apply -f helloworld-minishift.yaml`{{execute T1}}
 `oc get pods`{{execute T1}}
 

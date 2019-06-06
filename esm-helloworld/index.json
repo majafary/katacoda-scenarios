@@ -3,6 +3,7 @@
   "description": "Hello World with Openshift and Istio Service Mesh in mimutes!",
   "details": {
     "intro": {
+      "courseData":"run-init.sh",
       "text": "intro.md"
     },
     "steps": [
