@@ -1,4 +1,5 @@
 {
+  "tile-color": "black",
   "title": "Hello World With Istio Service Mesh",
   "title-color": "white",
   "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
