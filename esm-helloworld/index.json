@@ -1,8 +1,8 @@
 {
   "id"="jafary/esm-helloworld",
-  "tile-color": "blue",
+  "tile_color": "blue",
   "title": "Hello World With Istio Service Mesh",
-  "title-color": "white",
+  "title_color": "white",
   "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
   "difficulty":	"Beginner",
   "time":	"20 minutes",
