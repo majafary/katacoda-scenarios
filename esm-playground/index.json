@@ -1,7 +1,7 @@
 {
   "id"="jafary/esm-playground",
   "title": "Playground",
-  "description": "This playground environment is setup to run Docker, Kubernetes, and Openshift",
+  "description": "This playground environment is setup to run Docker, Kubernetes, and Openshift.",
   "difficulty":	"Beginner",
   "time":	"1 hour",
   "details": {
