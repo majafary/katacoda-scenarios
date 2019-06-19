@@ -25,5 +25,6 @@
   },
   "backend": {
     "imageid": "openshift-3-11", "port": 8443
-  }
+  },
+ "amex-enabled":"true" 
 }
