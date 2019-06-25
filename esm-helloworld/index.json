@@ -1,6 +1,5 @@
 {
   "id": "jafary/esm-helloworld",
-  /*minor change*/
   "tile-color": "gray",
   "title": "Hello World With Istio Service Mesh.",
   "title-color": "black",
