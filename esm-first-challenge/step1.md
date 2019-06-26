@@ -1,5 +1,5 @@
-1.<span style="color:green"> Verify if the docker and kubectl is installed in the environment.</span>
-2.<span style="color:blue"> Download an images called hello-world.</span>
+1.<div style="color:green"> Verify if the docker and kubectl is installed in the environment.</div>
+2.<div style="color:blue"> Download an images called hello-world.</div>
 3. Run the image hello-world, you should be able to see the following message.
 ` Hello from Docker!`
 4. List all the containers, and pick the image id of hello-world container.
