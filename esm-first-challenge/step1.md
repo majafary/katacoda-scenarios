@@ -1,5 +1,5 @@
 <ol>
-<li style="color:green"> Verify if the docker and kubectl is installed in the environment.</li>
+<li style="color:green"> Verify if the <B>docker</B> and <B>kubectl</B> is installed in the environment.</li>
 <li style="color:blue"> Download an images called hello-world.</li>
 <li style="color:green">Run the image hello-world, you should be able to see the following message.
 ` Hello from Docker!`</li>

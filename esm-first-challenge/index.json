@@ -4,6 +4,7 @@
   "details": {
     "steps": [
       {
+        "courseData":"run-init.sh",
         "title": "Docker Challenge",
         "text": "step1.md"
       },
