@@ -12,10 +12,6 @@
         "title": "Kubernetes Basic Challenge",
         "text": "step2.md",
         "verify": "step2-verify.sh"
-      },
-      {
-        "title": "Challenge 3",
-        "text": "step3.md"
       }
     ],
     "intro": {
