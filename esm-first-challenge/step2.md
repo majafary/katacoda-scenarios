@@ -28,4 +28,4 @@ You need to create a pod and a service, use two files pod.yaml and service.yaml
 
     ``kubectl get svc``{{execute T1}}
 
-6. Access the service using `curl` command, the service, you should see <B>hello world!</B> on console.
+6. Access the service using `curl` command, the output should be <B>hello world!</B>.
