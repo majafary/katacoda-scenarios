@@ -2,7 +2,7 @@
   "title": "first istio challenge",
   "description": "it is first challenge",
   "details": {
-    "Challenges": [
+    "steps": [
       {
         "title": "Challenge 1",
         "text": "step1.md"
