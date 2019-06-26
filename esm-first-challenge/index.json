@@ -4,11 +4,11 @@
   "details": {
     "steps": [
       {
-        "title": "Challenge 1",
+        "title": "Docker Challenge",
         "text": "step1.md"
       },
       {
-        "title": "Challenge 2",
+        "title": "Kubernetes Basic Challenge",
         "text": "step2.md"
       },
       {
