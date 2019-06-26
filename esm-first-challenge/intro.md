@@ -1,1 +1,1 @@
-The Challenges will test your basic understanding of Docker, Kubernetes, Containers, Pods and Services.
+These Challenges will test your basic understanding of Docker, Kubernetes, Containers, Pods and Services.
