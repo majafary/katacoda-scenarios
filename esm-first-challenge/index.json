@@ -2,17 +2,17 @@
   "title": "first istio challenge",
   "description": "it is first challenge",
   "details": {
-    "steps": [
+    "Challenges": [
       {
-        "title": "Step 1",
+        "title": "Challenge 1",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Challenge 2",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Challenge 3",
         "text": "step3.md"
       }
     ],
