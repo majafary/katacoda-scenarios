@@ -1,0 +1,1 @@
+The result is displayed in right hand side

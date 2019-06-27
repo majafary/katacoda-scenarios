@@ -5,14 +5,16 @@
     "steps": [
       {
         "title": "Docker Challenge",
-        "text": "step1.md",
-        "code":"step1-verify.sh"
+        "text": "step1.md"
       },
       {
         "title": "Kubernetes Basic Challenge",
         "text": "step2.md",
-        "verify": "step2-verify.sh",
-        "code":"step1-verify.sh"
+        "verify": "step2-verify.sh"
+      },{
+        "title": "Result",
+        "text": "step3.md",
+        "code":"result.sh"
       }
     ],
     "intro": {
