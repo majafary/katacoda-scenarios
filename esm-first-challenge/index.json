@@ -25,6 +25,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "kubernetes,node6"
+    "imageid": "kubernetes"
   }
 }
