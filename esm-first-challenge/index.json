@@ -11,7 +11,8 @@
       {
         "title": "Kubernetes Basic Challenge",
         "text": "step2.md",
-        "verify": "step2-verify.sh"
+        "verify": "step2-verify.sh",
+        "courseData":"step1-verify.sh"
       }
     ],
     "intro": {
