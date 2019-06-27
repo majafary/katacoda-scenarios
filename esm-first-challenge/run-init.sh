@@ -31,3 +31,57 @@ spec:
   selector:
     tier: backend
 EOF
+
+
+cat > package.json <<EOF
+
+{
+  "name": "root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.3.3"
+  }
+}
+
+EOF
+
+npm install
+
+cat > index.js <<EOF
+if(process.env.pass){
+    console.log("########     #########     ##       #    ###########    ########    ########   #####    #########".green);
+    console.log("#            #       #     # #      #    #              #      #    #      #     #      #".green);
+    console.log("#            #       #     #   #    #    #     #####    ######      ########     #      #########".green);
+    console.log("#            #       #     #    #   #    #     ##  #    #     #     #      #     #              #".green);
+    console.log("########     #########     #      # #    ###########    #      #    #      #     #      #########".green);
+}else{
+    console.log("#################     ############ #         ############     ############        #             # ".red);
+    console.log("#                     #            #         #          #     #          #        #             # ".red);
+    console.log("#                     #            #         #          #     #          #        #             # ".red);
+    console.log("#                     #            #         #          #     #          #        #             # ".red);
+    console.log("#                     #            #         #          #     #          #        #             # ".red);
+    console.log("#                     #            #         #          #     #          #        #             # ".red);
+    console.log("#                     #            #         #          #     #          #        #             # ".red);
+    console.log("#################     #            #         #########        #          #        ############### ".red);
+    console.log("                #     #            #         #        #       #########                  #        ".red);
+    console.log("                #     #            #         #          #     #        #                 #        ".red);
+    console.log("                #     #            #         #          #     #          #               #        ".red);
+    console.log("                #     #            #         #          #     #          #               #        ".red);
+    console.log("                #     #            #         #          #     #          #               #        ".red);
+    console.log("                #     #            #         #          #     #          #               #        ".red);
+    console.log("                #     #            #         #          #     #          #               #        ".red);
+    console.log("                #     #            #         #          #     #          #               #        ".red);
+    console.log("#################     ##############         #          #     #          #               #        ".red);
+
+}
+
+
+
+EOF
