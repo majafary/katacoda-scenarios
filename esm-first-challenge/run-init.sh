@@ -55,6 +55,7 @@ EOF
 npm install
 
 cat > index.js <<EOF
+var colors = require('colors');
 if(process.env.pass){
     console.log("########     #########     ##       #    ###########    ########    ########   #####    #########".green);
     console.log("#            #       #     # #      #    #              #      #    #      #     #      #".green);
