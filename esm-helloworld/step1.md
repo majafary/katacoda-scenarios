@@ -9,7 +9,7 @@ Execute: `oc new-project myproject`{{execute T1}}
 `oc apply -f istio-demo.yaml`{{execute T1}}
 
 4. Set ISTIO_HOME to the folder where Istio was installed
-`export ISTIO_HOME="/root/istio-1.1.7"`{{execute T1}}
+`export ISTIO_HOME="/root/istio-1.2.2"`{{execute T1}}
 
 5. Now add the bin folder to the PATH
 `export PATH=$PATH:$ISTIO_HOME/bin`{{execute T1}}
@@ -24,7 +24,7 @@ Execute: `oc new-project myproject`{{execute T1}}
 `curl -O https://raw.githubusercontent.com/majafary/archcon/master/helloworld-minishift.yaml`{{execute T1}}
 
 9. Let's look at the helloworld-minishift.yaml file. Your instructor will talk through the pieces of this file
-`cat /root/istio-1.1.7/install/kubernetes/helloworld-minishift.yaml`{{execute T2}}
+`cat /root/istio-1.2.2/install/kubernetes/helloworld-minishift.yaml`{{execute T2}}
 
 10. Deploy services - We Need This to Set privileged access to the Services. Wait for all pods to start.
 `oc apply -f helloworld-minishift.yaml`{{execute T1}}
