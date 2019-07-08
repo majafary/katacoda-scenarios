@@ -2,8 +2,8 @@
 Execute: `oc new-project myproject`{{execute T1}}
  
 2. Install istio
-`curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.1.7 sh -`{{execute T1}}
-`cd istio-1.1.7/install/kubernetes/`{{execute T1}}
+`curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.2.2 sh -`{{execute T1}}
+`cd istio-1.2.2/install/kubernetes/`{{execute T1}}
 
 3. Deploy the Istio Control Plane Components
 `oc apply -f istio-demo.yaml`{{execute T1}}
