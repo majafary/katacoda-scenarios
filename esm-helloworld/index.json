@@ -6,12 +6,12 @@
   "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
   "description-color": "black",
   "difficulty":	"Beginner",
-  "time":	"20 minutes",
+  "time":	"15 minutes",
   "details": {
     "intro": {
       "courseData":"run-init.sh",
       "text": "intro.md",
-      "credits": "[Mansoor Jafary](https://www.linkedin.com/in/mansoor-jafary-39b36626)"
+      "credits": "[Ruifeng Li](linkedin.com/in/ruifengli/)"
     },
     "steps": [
       {
