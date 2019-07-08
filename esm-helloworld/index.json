@@ -6,7 +6,7 @@
   "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
   "description-color": "black",
   "difficulty":	"Beginner",
-  "time":	"15 minutes",
+  "time":	"20 minutes",
   "details": {
     "intro": {
       "courseData":"run-init.sh",
