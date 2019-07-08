@@ -1,17 +1,19 @@
 1. Create New Project
 Execute: `oc new-project myproject`{{execute T1}}
  
-2. Install istio
+2. Download istio
 `curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.2.2 sh -`{{execute T1}}
+
+Go to the directory with YAML files
 `cd istio-1.2.2/install/kubernetes/`{{execute T1}}
 
-3. Deploy the Istio Control Plane Components
+3. Install Istio Control Plane Components
 `oc apply -f istio-demo.yaml`{{execute T1}}
 
 4. Set ISTIO_HOME to the folder where Istio was installed
 `export ISTIO_HOME="/root/istio-1.2.2"`{{execute T1}}
 
-5. Now add the bin folder to the PATH
+5. Add the bin folder to the PATH
 `export PATH=$PATH:$ISTIO_HOME/bin`{{execute T1}}
 
 6. List Istio Control Plane Services
