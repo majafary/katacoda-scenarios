@@ -15,8 +15,12 @@
     },
     "steps": [
       {
-        "title": "Let's Deploy Your First Application on Istio Service Mesh",
+        "title": "Deploy Your First Application on Istio Service Mesh",
         "text": "step1.md"
+      },
+      {
+        "title": "Canary Release on Istio Service Mesh",
+        "text": "step2.md"
       }
     ]
   },
