@@ -5,5 +5,7 @@
 `cat /root/istio-1.2.2/install/kubernetes/canary.yaml`{{execute T3}}
 
 3. Deploy canary services - We Need This to Set privileged access to the Services. Wait for all pods to start.
-`oc apply -f canary.yaml`{{execute T1}}
-`oc get pods`{{execute T1}}
+`istioctl kube-inject -f canary.yaml | oc apply -f -`{{execute T1}}
+    
+    `oc get pods`{{execute T1}}
+

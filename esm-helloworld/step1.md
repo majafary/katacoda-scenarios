@@ -27,7 +27,8 @@ Execute: `oc new-project myproject`{{execute T1}}
 
 9. Deploy services - We Need This to Set privileged access to the Services. Wait for all pods to start.
 `oc apply -f helloworld-minishift.yaml`{{execute T1}}
-`oc get pods`{{execute T1}}
+
+    `oc get pods`{{execute T1}}
 
 10. Now, add privileged access to the pods
 `oc adm policy add-scc-to-user privileged -z default -n myproject`{{execute T1}}
