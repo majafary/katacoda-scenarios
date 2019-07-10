@@ -1,5 +1,3 @@
-## Canary Release
-
 1. Get the canary.yaml file
 `curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/canary.yaml`{{execute T1}}
 
