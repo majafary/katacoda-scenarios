@@ -9,3 +9,6 @@
     
     `oc get pods`{{execute T1}}
 
+4. Test The Application - Hitting from Ingress
+   
+   `curl 127.0.0.1:31380 -H "Host: hello-canary.example.com"`{{execute T1}}

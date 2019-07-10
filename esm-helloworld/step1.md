@@ -44,7 +44,9 @@ Execute: `oc new-project myproject`{{execute T1}}
 13. Verify that the pods are running along with the sidecar (indicated by 2/2). Make sure to wait for all pods to be running
 `oc get pods`{{execute T1}}
 
-14. Test The Application
+14. Test The Application - Hitting from echoserver
 `oc exec -it $(oc get pods -l app=echoserver -o jsonpath='{.items[0].metadata.name}') -c echoserver -- curl hello:8080`{{execute T1}}
 
+15. Test The Application - Hitting from Ingress
+`curl 127.0.0.1:31380 -H "Host: hello-tls.example.com"`{{execute T1}}
 
