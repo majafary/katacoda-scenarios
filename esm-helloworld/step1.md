@@ -1,3 +1,5 @@
+## Deploy your first hello-world app
+
 1. Create New Project
 Execute: `oc new-project myproject`{{execute T1}}
  
@@ -45,3 +47,13 @@ Execute: `oc new-project myproject`{{execute T1}}
 
 14. Test The Application
 `oc exec -it $(oc get pods -l app=echoserver -o jsonpath='{.items[0].metadata.name}') -c echoserver -- curl hello:8080`{{execute T1}}
+
+
+##Canary Release
+
+1. Get the canary.yaml file
+`curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/canary.yaml`{{execute T1}}
+
+2. Let's look at the Canary.yaml file. Your instructor will talk through the pieces of this file
+`cat /root/istio-1.2.2/install/kubernetes/canary.yaml`{{execute T2}}
+
