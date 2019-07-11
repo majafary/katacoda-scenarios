@@ -12,3 +12,10 @@
 4. Test The Application - Hitting from Ingress
    
    `curl 127.0.0.1:31380 -H "Host: hello-canary.example.com"`{{execute T1}}
+
+5. Change the weight to 50-50 through virtual service
+
+    `vim canary.yaml`{{execute T1}}
+
+6. Test the traffic shifting
+    `curl 127.0.0.1:31380 -H "Host: hello-canary.example.com"`{{execute T1}}
