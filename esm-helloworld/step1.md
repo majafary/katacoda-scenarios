@@ -22,36 +22,33 @@ Execute: `oc new-project myproject`{{execute T1}}
 7. Get the helloworld-minishift.yaml file
 `curl -O https://raw.githubusercontent.com/majafary/archcon/master/helloworld-minishift.yaml`{{execute T1}}
 
-8. Let's look at the helloworld-minishift.yaml file. Your instructor will talk through the pieces of this file. 
-
-Install vim first
-`yum install vim -y`{{execute T2}}
+8. Install vim first `yum install vim -y`{{execute T2}}
     
-Display the yaml file
+9. Let's look at the helloworld-minishift.yaml file. Your instructor will talk through the pieces of this file. 
 `vim /root/istio-1.2.2/install/kubernetes/helloworld-minishift.yaml`{{execute T2}}
 
-9. Deploy services - We Need This to Set privileged access to the Services. Wait for all pods to start.
+10. Deploy services - We Need This to Set privileged access to the Services. Wait for all pods to start.
 `oc apply -f helloworld-minishift.yaml`{{execute T1}}
 
     `oc get pods`{{execute T1}}
 
-10. Now, add privileged access to the pods
+11. Now, add privileged access to the pods
 `oc adm policy add-scc-to-user privileged -z default -n myproject`{{execute T1}}
 `oc adm policy add-scc-to-user privileged -z world -n myproject`{{execute T1}}
 `oc adm policy add-scc-to-user privileged -z hello -n myproject`{{execute T1}}
 
-11. OK, Let's delete the pods we just created. You will see why we did this soon
+12. OK, Let's delete the pods we just created. You will see why we did this soon
 `oc delete -f helloworld-minishift.yaml`{{execute T1}}
 
-12. Create the pods again - This time with sidecars
+13. Create the pods again - This time with sidecars
 `istioctl kube-inject -f helloworld-minishift.yaml | oc apply -f -`{{execute T1}}
 
-13. Verify that the pods are running along with the sidecar (indicated by 2/2). Make sure to wait for all pods to be running
+14. Verify that the pods are running along with the sidecar (indicated by 2/2). Make sure to wait for all pods to be running
 `oc get pods`{{execute T1}}
 
-14. Test The Application - Hitting from echoserver
+15. Test The Application - Hitting from echoserver
 `oc exec -it $(oc get pods -l app=echoserver -o jsonpath='{.items[0].metadata.name}') -c echoserver -- curl hello:8080`{{execute T1}}
 
-15. Test The Application - Hitting from Ingress
+16. Test The Application - Hitting from Ingress
 `curl 127.0.0.1:31380 -H "Host: hello-tls.example.com"`{{execute T1}}
 
