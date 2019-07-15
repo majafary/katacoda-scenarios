@@ -24,7 +24,7 @@ Execute: `oc new-project myproject`{{execute T1}}
 
 8. Let's look at the helloworld-minishift.yaml file. Your instructor will talk through the pieces of this file
     Install vim
-    `yum install vim -y` {{execute T1}}
+    `yum install vim -y`{{execute T1}}
     
     Display the yaml file
     `vim /root/istio-1.2.2/install/kubernetes/helloworld-minishift.yaml`{{execute T2}}
