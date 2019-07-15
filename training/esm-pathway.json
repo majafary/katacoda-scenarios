@@ -1,0 +1,13 @@
+{
+  "title": "Demo",
+  "description": "Training session",
+  "courses": [
+    {
+      "course_id": "esm-helloworld",
+      "pathway_id": "eali",
+      "id": "esm-helloworld",
+      "title": "esm-helloworld",
+      "description": ""
+    }
+  ]
+}
