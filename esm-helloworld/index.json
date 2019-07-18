@@ -1,12 +1,12 @@
 {
-  "id": "jafary/esm-helloworld",
+  "id": "eali/esm-helloworld",
   "tile-color": "blue",
-  "title": "Hello World With Istio Service Mesh",
+  "title": "Enterprise Service Mesh Training",
   "title-color": "black",
   "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
   "description-color": "black",
   "difficulty":	"Beginner",
-  "time":	"20 minutes",
+  "time":	"1 hour",
   "details": {
     "intro": {
       "courseData":"run-init.sh",
@@ -21,6 +21,10 @@
       {
         "title": "Canary Release on Istio Service Mesh",
         "text": "step2.md"
+      },
+      {
+        "title": "Circuit Breaking on Istio Service Mesh",
+        "text": "step3.md"
       }
     ]
   },
