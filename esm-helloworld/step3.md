@@ -20,7 +20,6 @@
 
     `oc exec -it $(oc get pods -l app=fortio -o jsonpath='{.items[0].metadata.name}') -c fortio /usr/bin/fortio  -- load -curl http://hello-circuitbreaking:8080`{{execute T1}}
 
-
 6. Use Fortio to test The Application up and running - One Concurrent Request for 20 requests
    
     `oc exec -it $(oc get pods -l app=fortio -o jsonpath='{.items[0].metadata.name}')  -c fortio /usr/bin/fortio -- load -c 1 -qps 0 -n 20 --loglevel Warning http://hello-circuitbreaking:8080`{{execute T1}}
