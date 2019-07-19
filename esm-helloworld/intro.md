@@ -10,6 +10,6 @@ This tutorial will setup Istio Service Mesh on OpenShift 3.11 environment and de
 
 3. Circuit Breaking on Istio Service Mesh
 
-    [Circuit Breaking](https://istio.io/docs/concepts/traffic-management/#circuit-breakers)
+    [Reference: Circuit Breaking](https://istio.io/docs/concepts/traffic-management/#circuit-breakers)
 
 Note: You can type the commands provided in the left hand pane in the terminal window or simply click to execute.
