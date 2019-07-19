@@ -17,7 +17,7 @@
       {
         "title": "Deploy Hello World Application",
         "text": "step1.md",
-        "courseData": "[Ruifeng Li](https://www.linkedin.com/in/ruifengli/)"
+        "courseData": "[Reference: Istio Architecture](https://istio.io/docs/concepts/what-is-istio/#architecture)"
       },
       {
         "title": "Canary Release",
