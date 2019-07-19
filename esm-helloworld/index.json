@@ -16,8 +16,7 @@
     "steps": [
       {
         "title": "Deploy Hello World Application",
-        "text": "step1.md",
-        "courseData": "[Reference: Istio Architecture](https://istio.io/docs/concepts/what-is-istio/#architecture)"
+        "text": "step1.md"
       },
       {
         "title": "Canary Release",
