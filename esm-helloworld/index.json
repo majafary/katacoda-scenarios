@@ -15,16 +15,21 @@
     },
     "steps": [
       {
-        "title": "Deploy Your First Application on Istio Service Mesh",
-        "text": "step1.md"
+        "title": "Deploy Hello World Application",
+        "text": "step1.md",
+        "courseData": "[Ruifeng Li](https://www.linkedin.com/in/ruifengli/)"
       },
       {
-        "title": "Canary Release on Istio Service Mesh",
+        "title": "Canary Release",
         "text": "step2.md"
       },
       {
-        "title": "Circuit Breaking on Istio Service Mesh",
+        "title": "Circuit Breaking",
         "text": "step3.md"
+      },
+      {
+        "title": "Rate Limiting",
+        "text": "step4.md"
       }
     ]
   },
