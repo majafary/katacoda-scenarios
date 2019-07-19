@@ -27,3 +27,12 @@
 7. Use Fortio to test The Application up and running - 5 Concurrent Requests for 20 requests
    
     `oc exec -it $(oc get pods -l app=fortio -o jsonpath='{.items[0].metadata.name}')  -c fortio /usr/bin/fortio -- load -c 5 -qps 0 -n 20 --loglevel Warning http://hello-circuitbreaking:8080`{{execute T1}}
+
+
+Render port 8500: https://[[HOST_SUBDOMAIN]]-8500-[[KATACODA_HOST]].environments.katacoda.com/
+
+Render port 80: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/
+
+`Render port 80: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/`{{execute T1}}
+
+`https://[[HOST_SUBDOMAIN]]-[[KATACODA_HOST]].environments.katacoda.com/`{{execute T1}}
