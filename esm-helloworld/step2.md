@@ -24,3 +24,11 @@
 
 7. Test the traffic shifting
     `curl 127.0.0.1:31380 -H "Host: hello-canary.example.com"`{{execute T1}}
+    
+8. Let's do a clean up once we're done
+
+    `oc delete -f helloworld-minishift.yaml`{{execute T1}}
+    
+    `oc delete -f canary.yaml`{{execute T1}}
+    
+    `oc get pods`{{execute T1}}
