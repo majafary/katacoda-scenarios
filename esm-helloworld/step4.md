@@ -1,20 +1,25 @@
 1. Get the rate_limiting.yaml file
-`curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/circuit_breaking.yaml`{{execute T1}}
+`curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/rate_limiting.yaml`{{execute T1}}
 
 2. Let's look at the Canary.yaml file. Your instructor will talk through the pieces of this file
-`vim /root/istio-1.2.2/install/kubernetes/circuit_breaking.yaml`{{execute T4}}
+`vim /root/istio-1.2.2/install/kubernetes/rate_limiting.yaml`{{execute T5}}
 
-3. Deploy canary services - We Need This to Set privileged access to the Services. Wait for all pods to start.
-`istioctl kube-inject -f circuit_breaking.yaml | oc apply -f -`{{execute T1}}
+3. Deploy Rate Limit Configuration
+`oc apply -f rate_limiting.yaml`{{execute T1}}
+
+4. Verify the configuration is deployed(Optional)
     
     `oc get pods`{{execute T1}}
-
-4. Install Fortio for load testing and benchmarking 
-`curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/fortio.yaml`{{execute T1}}
-
-    `oc apply -f fortio.yaml`{{execute T1}}
     
-    `oc get pods`{{execute T1}}
+    `oc get handler`{{execute T1}}
+    
+    `oc get instance`{{execute T1}}
+    
+    `oc get QuotaSpec`{{execute T1}}
+    
+    `oc get QuotaSpecBinding`{{execute T1}}
+    
+    `oc get rule`{{execute T1}}
 
 5. Use Fortio to test The Application up and running - One Request
 
