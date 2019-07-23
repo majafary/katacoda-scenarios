@@ -1,1 +1,1 @@
-Congratulations! You have successfully setup and executed your first application on Istio.
+Congratulations! You have successfully finished Service Mesh Training!!
