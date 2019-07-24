@@ -32,6 +32,10 @@ Execute: `oc new-project myproject`{{execute T1}}
 `oc apply -f helloworld-minishift.yaml`{{execute T1}}
 
     `oc get pods`{{execute T1}}
+    
+    Test Application is running:
+    `oc exec -it $(oc get pods -l app=echoserver -o jsonpath='{.items[0].metadata.name}') -c echoserver -- curl hello:8080`{{execute T1}}
+
 
 11. Now, add privileged access to the pods
 `oc adm policy add-scc-to-user privileged -z default -n myproject`{{execute T1}}

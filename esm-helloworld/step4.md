@@ -52,15 +52,18 @@
 
     `vim /root/istio-1.2.2/install/kubernetes/rate_limiting.yaml`{{execute T6}}
 
-9. Test again
+9. Deploy Rate Limit Configuration
+    `oc apply -f rate_limiting.yaml`{{execute T1}}
+
+10. Test again
 
     `oc exec -it $(oc get pods -l app=fortio -o jsonpath='{.items[0].metadata.name}') -c fortio /usr/bin/fortio  -- load -curl http://hello:8080`{{execute T1}}
 
-10. Use Fortio to test The Application up and running - One Concurrent Request for 20 requests
+11. Use Fortio to test The Application up and running - One Concurrent Request for 20 requests
    
     `oc exec -it $(oc get pods -l app=fortio -o jsonpath='{.items[0].metadata.name}')  -c fortio /usr/bin/fortio -- load -c 1 -qps 0 -n 20 --loglevel Warning http://hello:8080`{{execute T1}}
 
-11. Use Fortio to test The Application up and running - 5 Concurrent Requests for 20 requests
+12. Use Fortio to test The Application up and running - 5 Concurrent Requests for 20 requests
    
     `oc exec -it $(oc get pods -l app=fortio -o jsonpath='{.items[0].metadata.name}')  -c fortio /usr/bin/fortio -- load -c 5 -qps 0 -n 20 --loglevel Warning http://hello:8080`{{execute T1}}
     
