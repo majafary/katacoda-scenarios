@@ -1,12 +1,9 @@
 {
-<<<<<<< HEAD
   "title": "Hello World With Istio Service Mesh.",
-=======
   "id": "jafary/esm-helloworld",
   "tile-color": "blue",
   "title": "Hello World With Istio Service Mesh",
   "title-color": "black",
->>>>>>> f0ffa1feec3722057e3c7608c99a0c9fdb1781e7
   "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
   "time":	"20 minutes",
   "details": {
