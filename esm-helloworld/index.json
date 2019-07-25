@@ -1,11 +1,6 @@
 {
-  "id": "jafary/esm-helloworld",
-  "tile-color": "gray",
   "title": "Hello World With Istio Service Mesh.",
-  "title-color": "black",
   "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
-  "description-color": "black",
-  "difficulty":	"Beginner",
   "time":	"20 minutes",
   "details": {
     "intro": {
@@ -21,10 +16,15 @@
     ]
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "openshift-3-11", "port": 8443
   },
- "amex-enabled":"true" 
+  "id": "jafary/esm-helloworld",
+  "tile-color": "gray",
+  "title-color": "black",
+  "description-color": "black",
+  "difficulty":	"Beginner",
+  "amex-enabled":"true" 
 }
