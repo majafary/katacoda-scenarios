@@ -4,7 +4,7 @@
   "tile-color": "blue",
   "title": "Hello World With Istio Service Mesh",
   "title-color": "black",
-  "description": "Hello World with Openshift and Istio Service Mesh in minutes!",
+  "description": "Learn Hello World with Openshift and Istio Service Mesh!",
   "time":	"20 minutes",
   "details": {
     "intro": {
