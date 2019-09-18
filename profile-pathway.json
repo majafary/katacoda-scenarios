@@ -1,0 +1,15 @@
+{
+    "courses": [
+      {
+        "title": "Enterprise Service Mesh",
+        "description": "Collection of all Enterprise Service Mesh Courses",
+        "id": "mesh"
+      },
+      {
+        "title": "One Data",
+        "description": "Collection of all One Data Courses",
+        "id": "onedata"
+      }]
+}
+
+

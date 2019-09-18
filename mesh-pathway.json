@@ -1,0 +1,16 @@
+{
+    "title": "American Express Interactive Training Catalog",
+    "description": "Here you will find various American Express Courses. Please select a domain to continue down the pathway of courses and scenarios available",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "esm-helloworld",
+        "title": "Hello World with Istio Service Mesh",
+        "description": "Learn Hello World with Openshift and Istio Service Mesh!"
+      },
+      {
+        "course_id": "esm-playground",
+        "title": "Playground",
+        "description": "This playground environment is setup to run Docker, Kubernetes, and Openshift."
+      }]
+}
