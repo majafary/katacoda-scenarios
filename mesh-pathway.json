@@ -1,6 +1,6 @@
 {
     "title": "American Express Interactive Training Catalog",
-    "description": "Here you will find various American Express Courses. Please select a domain to continue down the pathway of courses and scenarios available",
+    "description": "Here you will find various courses on Enterprise Service Mesh. Please select a scenarios to continue",
     "icon": "fa-katacoda",
     "courses": [
       {
