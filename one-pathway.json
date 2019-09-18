@@ -1,0 +1,11 @@
+
+{
+    "title": "One Framework",
+    "description": "Follow this path to access all One Framework Courses!",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "one-data",
+        "title": "Scenario with Terminal UI",
+        "description": "Hello World One Data"
+      },
