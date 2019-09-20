@@ -9,6 +9,11 @@
         "title": "One Framework",
         "description": "Collection of all One Framework Courses",
         "id": "one"
+      },
+      {
+        "title": "General",
+        "description": "Collection of all other courses",
+        "id": "general"
       }]
 }
 
