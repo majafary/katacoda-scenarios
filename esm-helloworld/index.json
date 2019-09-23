@@ -35,7 +35,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "Display 8080", "port": 8080}],
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "openshift-3-11", "port": 8443
