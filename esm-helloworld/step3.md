@@ -2,7 +2,7 @@
 `curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/circuit_breaking.yaml`{{execute T1}}
 
 2. Let's look at the Canary.yaml file. Your instructor will talk through the pieces of this file
-`vim /root/istio-1.3.0/install/kubernetes/circuit_breaking.yaml`{{execute T4}}
+`vim /root/istio-1.2.2/install/kubernetes/circuit_breaking.yaml`{{execute T4}}
 
 3. Deploy canary services - We Need This to Set privileged access to the Services. Wait for all pods to start.
 `istioctl kube-inject -f circuit_breaking.yaml | oc apply -f -`{{execute T1}}
