@@ -3,7 +3,7 @@
 `curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/helloworld.yaml`{{execute T1}}
 
 2. Let's look at the helloworld.yaml file. Your instructor will talk through the pieces of this file
-`vim /root/istio-1.2.2/install/kubernetes/helloworld.yaml`{{execute T5}}
+`vim /root/istio-1.3.0/install/kubernetes/helloworld.yaml`{{execute T5}}
 
 3. Deploy micro-services with sidecar envoy proxy injected in the same pod
 
@@ -17,7 +17,7 @@
 `curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/rate_limiting.yaml`{{execute T1}}
 
 5. Let's look at the rate_limiting.yaml file. Your instructor will talk through the pieces of this file
-`vim /root/istio-1.2.2/install/kubernetes/rate_limiting.yaml`{{execute T6}}
+`vim /root/istio-1.3.0/install/kubernetes/rate_limiting.yaml`{{execute T6}}
 
 6. Deploy Rate Limit Configuration
 `oc apply -f rate_limiting.yaml`{{execute T1}}
@@ -50,7 +50,7 @@
     
 8. Change the configuration
 
-    `vim /root/istio-1.2.2/install/kubernetes/rate_limiting.yaml`{{execute T6}}
+    `vim /root/istio-1.3.0/install/kubernetes/rate_limiting.yaml`{{execute T6}}
 
 9. Deploy Rate Limit Configuration
     `oc apply -f rate_limiting.yaml`{{execute T1}}
