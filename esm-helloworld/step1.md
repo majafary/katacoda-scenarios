@@ -22,7 +22,7 @@ Execute: `oc new-project myproject`{{execute T1}}
 7. Get the helloworld-minishift.yaml file
 `curl -O https://raw.githubusercontent.com/majafary/archcon/master/helloworld-minishift.yaml`{{execute T1}}
 
-8. Install vim first`yum install vim -y`{{execute T1}}
+<!-- 8. Install vim first`yum install vim -y`{{execute T1}} -->
     
 9. Let's look at the helloworld-minishift.yaml file. Your instructor will talk through the pieces of this file. 
     If it doesn't display, please click on below command one more time.
