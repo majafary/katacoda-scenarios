@@ -3,7 +3,7 @@
 
 2. Let's look at the Canary.yaml file. Your instructor will talk through the pieces of this file
 
-3. Deploy canary services - We Need This to Set privileged access to the Services. Wait for all pods to start.
+3. Deploy services - We Need This to Set privileged access to the Services. Wait for all pods to start.
 `istioctl kube-inject -f circuit_breaking.yaml | oc apply -f -`{{execute T1}}
     
     `oc get pods`{{execute T1}}

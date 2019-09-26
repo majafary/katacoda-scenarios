@@ -17,7 +17,6 @@
 `curl -O https://raw.githubusercontent.com/ruifengli-asu/esm/master/examples/rate_limiting.yaml`{{execute T1}}
 
 5. Let's look at the rate_limiting.yaml file. Your instructor will talk through the pieces of this file
-`vim /root/istio-1.3.0/install/kubernetes/rate_limiting.yaml`{{execute T6}}
 
 6. Deploy Rate Limit Configuration
 `oc apply -f rate_limiting.yaml`{{execute T1}}
@@ -48,9 +47,7 @@
    
     `oc exec -it $(oc get pods -l app=fortio -o jsonpath='{.items[0].metadata.name}')  -c fortio /usr/bin/fortio -- load -c 5 -qps 0 -n 20 --loglevel Warning http://hello:8080`{{execute T1}}
     
-8. Change the configuration
-
-    `vim /root/istio-1.3.0/install/kubernetes/rate_limiting.yaml`{{execute T6}}
+8. Change the configuration.
 
 9. Deploy Rate Limit Configuration
     `oc apply -f rate_limiting.yaml`{{execute T1}}
