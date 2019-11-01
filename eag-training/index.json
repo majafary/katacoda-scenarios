@@ -18,18 +18,18 @@
         "title": "Deploy Hello World Application",
         "text": "step1.md"
       },
-      // {
-      //   "title": "Canary Release",
-      //   "text": "step2.md"
-      // },
-      // {
-      //   "title": "Circuit Breaking",
-      //   "text": "step3.md"
-      // },
-      // {
-      //   "title": "Rate Limiting",
-      //   "text": "step4.md"
-      // }
+      {
+        "title": "Canary Release",
+        "text": "step2.md"
+      },
+      {
+        "title": "Circuit Breaking",
+        "text": "step3.md"
+      },
+      {
+        "title": "Rate Limiting",
+        "text": "step4.md"
+      }
     ]
   },
   "environment": {
