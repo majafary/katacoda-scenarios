@@ -1,5 +1,5 @@
 1. Create New Project
-Execute: `oc new-project myproject`{{execute T1}}
+Execute: `oc new-project gloo-system`{{execute T1}}
  
 2. Download istio
 `curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.3.0 sh -`{{execute T1}}
