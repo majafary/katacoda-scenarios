@@ -2,7 +2,7 @@
 Execute: `oc new-project gloo-system`{{execute T1}}
  
 2. Download EAG Deployment 
-`curl -O https://https://raw.githubusercontent.com/ruifengli-asu/katacoda-scenarios/master/eag-training/examples/gloo-install.yaml?token=AAS6BV2WHWYYQWFKR6HDZH25XSXGI`{{execute T1}}
+`curl -O https://raw.githubusercontent.com/ruifengli-asu/katacoda-scenarios/master/eag-training/examples/gloo-install.yaml`{{execute T1}}
 
 3. Install Istio Control Plane Components
 `oc apply -f gloo-install.yaml`{{execute T1}}
