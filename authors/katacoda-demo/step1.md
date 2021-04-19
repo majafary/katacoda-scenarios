@@ -11,7 +11,7 @@ At its basic, Katacoda provides a live terminal window and a pane for providing 
 
 > You create and run commands in a new Terminal Window  
 
-`echo "I am Terminal 2"` {{execute T1}}  
+`echo "I am Terminal 2"` {{execute T2}}  
 
 > You can copy simple commands  
 

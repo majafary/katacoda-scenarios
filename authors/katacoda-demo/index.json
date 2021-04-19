@@ -5,6 +5,7 @@
   "details": {
     "intro": {
       "courseData":"background.sh",
+      "code": "foreground.sh",
       "text": "intro.md",
       "credits": "[Mansoor Jafary](https://www.linkedin.com/in/mansoor-jafary-39b36626)"
     },
