@@ -1,2 +1,2 @@
 echo "Executing foreground scripts ..." &&
-touch app.js
+touch resp.js
