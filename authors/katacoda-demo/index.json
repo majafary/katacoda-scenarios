@@ -35,7 +35,7 @@
     "resp.js"
   ],
   "environment": {
-      "hidefinish":true,
+      "hidefinish":false,
       "uilayout": "editor-terminal",
       "showdashboard": true,
       "dashboards": [

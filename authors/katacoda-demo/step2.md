@@ -43,5 +43,5 @@ server.listen(3000, function() {
 ## Insert Code in Specific Positions  
 > Use data markers to insert code in pre-determined positions
 <pre class="file" data-filename="resp.js"  data-target="insert" data-marker="#TODO-insert">
-    const message = 'Hello, World!';
+const message = 'Hello, World!';
 </pre>>
