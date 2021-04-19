@@ -5,12 +5,11 @@ At its basic, Katacoda provides a live terminal window and a pane for providing 
 
 `top`{{execute T1}}
 
-> You can interrupt (Ctrl + C) a previously running command and execute a new command. Let's clear  the terminal.
+> You can interrupt previously running commands
+`^C`{{execute}}
 
-`top`{{execute interrupt T1}}
-
-> Let's clear the terminal
-`clear`{{execute}}
+> Let's interrupt the command and clear the terminal
+`clear`{{execute interrupt}}
 
 > You create and run commands in a new Terminal Window
 

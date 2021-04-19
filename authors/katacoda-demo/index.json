@@ -11,19 +11,19 @@
     },
     "steps": [
       {
-        "title": "Markdowns for interactive guided instructions",
+        "title": "Step 1 - Markdowns for interactive guided instructions",
         "text": "step1.md"
       },
       {
-        "title": "Using The Text Editor",
+        "title": "Step 2 - Using The Text Editor",
         "text": "step2.md"
       },
       {
-        "title": "Exposing Ports & Services",
+        "title": "Step 3 - Exposing Ports & Services",
         "text": "step3.md"
       },
       {
-        "title": "Time For A Quiz",
+        "title": "Step 4 - Time For A Quiz",
         "text": "step4.md"
       }
     ],
