@@ -4,4 +4,4 @@ In the previous setup we created code for a basic node app. Remember we said it 
 `node app.js`{{execute T1}}
 
 > you can export ports to allow access to the service running inside Katacoda's Sandbox. Click on the link below to see how that works
-http://[[KATACODA_DOMAIN]]:[[HOST_NODEPORT1]]/
+https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
