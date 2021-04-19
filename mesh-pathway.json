@@ -1,16 +1,17 @@
 {
-    "title": "American Express Interactive Training Catalog",
-    "description": "Here you will find various courses on Enterprise Service Mesh. Please select a scenarios to continue",
-    "icon": "fa-katacoda",
-    "courses": [
-      {
-        "course_id": "esm-helloworld",
-        "title": "Hello World with Istio Service Mesh",
-        "description": "Learn Hello World with Openshift and Istio Service Mesh!"
-      },
-      {
-        "course_id": "esm-playground",
-        "title": "Playground",
-        "description": "This playground environment is setup to run Docker, Kubernetes, and Openshift."
-      }]
+  "title": "American Express Interactive Training Catalog",
+  "description": "Here you will find various courses on Enterprise Service Mesh. Please select a scenarios to continue",
+  "icon": "fa-katacoda",
+  "courses": [
+    {
+      "course_id": "esm-helloworld",
+      "title": "Hello World with Istio Service Mesh",
+      "description": "Learn Hello World with Openshift and Istio Service Mesh!"
+    },
+    {
+      "course_id": "esm-playground",
+      "title": "Playground",
+      "description": "This playground environment is setup to run Docker, Kubernetes, and Openshift."
+    }
+  ]
 }

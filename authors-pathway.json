@@ -4,9 +4,9 @@
     "icon": "fa-katacoda",
     "courses": [
       {
-        "course_id": "jafary/katacoda-demo",
-        "title": "Tools for Create a Katacoda Scenario",
-        "description": "Learn how to create custom scenarios in Katacoda"
+        "course_id": "katacoda-demo",
+        "title": "Simple Katacoda Scenario",
+        "description": "Learn how to create your own scenarios in Katacoda"
       }
     ]
 }
