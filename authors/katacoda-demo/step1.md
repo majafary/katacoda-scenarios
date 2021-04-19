@@ -10,7 +10,10 @@ At its basic, Katacoda provides a live terminal window and a pane for providing 
 > Let's interrupt the command and clear the terminal  
 `clear`{{execute interrupt T1}}
 
-> You can also create and run commands in a new Terminal Window  
+> You can create additional Terminals  
+`Create T2`{{execute T2}}
+
+> You can control which terminal window commands execute in  
 `echo I am Terminal 2`{{execute T2}}
 
 > You can copy simple commands  
