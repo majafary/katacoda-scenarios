@@ -6,12 +6,12 @@ At its basic, Katacoda provides a live terminal window and a pane for providing 
 `top`{{execute T1}}
 
 > You can interrupt previously running commands
-`^C`{{execute ctrl-seq}}
+`^C`{{execute ctrl-seq T1}}
 
 > Let's interrupt the command and clear the terminal
-`clear`{{execute interrupt}}
+`clear`{{execute interrupt T1}}
 
-> You create and run commands in a new Terminal Window
+> You can also create and run commands in a new Terminal Window
 
 `echo "I am Terminal 2"`{{execute T2}}
 
