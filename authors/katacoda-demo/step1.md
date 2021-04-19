@@ -3,7 +3,7 @@ At its basic, Katacoda provides a live terminal window and a pane for providing 
 ## Execute Commands on Terminal Window
 > Click on the command to execute it in the terminal window.
 
-`top`{{execute}}
+`top`{{execute interrupt}}
 
 > You can interrupt (Ctrl + C) a previously running command and execute a new command. Let's clear  the terminal.
 
