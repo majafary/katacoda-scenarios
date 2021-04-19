@@ -1,0 +1,12 @@
+{
+    "title": "Welcome To Katacoda's Authors Zone",
+    "description": "Katacoda makes adoption of tools, frameworks and capabilities easy with live in-browser courses and onboarding tools. Here you will learn how to make the most of Katacoda to meet your team and organizational objectives",
+    "icon": "fa-katacoda",
+    "courses": [
+      {
+        "course_id": "jafary/katacoda-demo",
+        "title": "Tools for Create a Katacoda Scenario",
+        "description": "Learn how to create custom scenarios in Katacoda"
+      }
+    ]
+}

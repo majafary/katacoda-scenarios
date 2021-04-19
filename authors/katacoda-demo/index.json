@@ -1,0 +1,42 @@
+{
+  "title": "Hello Katacoda",
+  "description": "We will explore the various features of Katacoda",
+  "time":	"20 minutes",
+  "details": {
+    "intro": {
+      "courseData":"background.sh",
+      "text": "intro.md",
+      "credits": "[Mansoor Jafary](https://www.linkedin.com/in/mansoor-jafary-39b36626)"
+    },
+    "steps": [
+      {
+        "title": "Markdowns for interactive guided instructions",
+        "text": "step1.md"
+      },
+      {
+        "title": "Using The Text Editor",
+        "text": "step2.md"
+      },
+      {
+        "title": "Exposing Ports & Services",
+        "text": "step3.md"
+      }
+    ]
+  },
+  "environment": {
+      "hidefinish":true,
+      "uilayout": "editor-terminal",
+      "showdashboard": true,
+      "dashboards": [
+        {
+          "name": "Katacoda.com",
+          "href": "https://www.katacoda.community/"
+        }
+      ]
+  },
+  "backend": {
+    "imageid": "nodejs:12",
+    "port": 23000,
+    "ports": [23000, 3000]
+  }
+}
