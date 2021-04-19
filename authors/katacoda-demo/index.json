@@ -22,8 +22,14 @@
         "title": "Exposing Ports & Services",
         "text": "step3.md"
       }
-    ]
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   },
+  "files": [
+    "resp.js"
+  ],
   "environment": {
       "hidefinish":true,
       "uilayout": "editor-terminal",
