@@ -6,7 +6,7 @@ At its basic, Katacoda provides a live terminal window and a pane for providing 
 `top`{{execute T1}}
 
 > You can interrupt previously running commands
-`^C`{{execute}}
+`^C`{{execute ctrl-seq}}
 
 > Let's interrupt the command and clear the terminal
 `clear`{{execute interrupt}}
